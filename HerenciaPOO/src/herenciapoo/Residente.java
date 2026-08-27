@@ -14,4 +14,16 @@ public class Residente extends Persona {
     
     public int anioMudanza;
     
+    // Métodos getter y setter para la clase hija Residente
+    
+    // Año mudanza
+    
+    public int getAnioMudanza() {
+        return anioMudanza;
+    }
+
+    public void setAñoMudanza(int anioMudanza) {
+        this.anioMudanza = anioMudanza;
+    }
+    
 }
