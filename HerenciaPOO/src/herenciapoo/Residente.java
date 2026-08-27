@@ -10,4 +10,8 @@ package herenciapoo;
  */
 public class Residente extends Persona {
     
+    // Definiendo atributos de la clase hija Residente
+    
+    public int anioMudanza;
+    
 }
