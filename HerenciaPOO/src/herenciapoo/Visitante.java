@@ -10,4 +10,9 @@ package herenciapoo;
  */
 public class Visitante extends Persona {
     
+    // Definiendo atributos de la clase hija Visitante
+    
+    private double tiempoEstadia;
+    private String acompaniaA;
+    
 }
