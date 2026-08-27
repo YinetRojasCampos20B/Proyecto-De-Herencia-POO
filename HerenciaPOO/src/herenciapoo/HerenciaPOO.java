@@ -28,6 +28,18 @@ public class HerenciaPOO {
         residente1.setHoraEntrada(17.20f);
         residente1.setHoraSalida(20.40f);
         residente1.setAñoMudanza(2021);
+        
+        // Usar el método Imprimir Datos de la clase madre Persona para mostrar en consola su respectiva información
+        
+        residente1.imprimirDatos(residente1);
+
+        // Usar el método Imprimir Datos Residente de la clase hija Residente para mostrar en consola su respectiva información
+        
+        residente1.imprimirDatosResidente(residente1);
+
+        // Separador de la información en consola
+        
+        System.out.println("---------------------------------------------------------");
     
     
     }
