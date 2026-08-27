@@ -15,4 +15,26 @@ public class Propietario extends Persona {
     private String torre;
     private String apartamento;
     
+    // Métodos getter y setter de la clase Propietario
+    
+    // Torre
+    
+    public String getTorre() {
+        return torre;
+    }
+
+    public void setTorre(String torre) {
+        this.torre = torre;
+    }
+
+    // Apartamento
+    
+    public String getApartamento() {
+        return apartamento;
+    }
+
+    public void setApartamento(String apartamento) {
+        this.apartamento = apartamento;
+    }
+    
 }
