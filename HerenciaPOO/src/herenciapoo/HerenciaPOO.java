@@ -41,7 +41,9 @@ public class HerenciaPOO {
         
         System.out.println("---------------------------------------------------------");
     
-    
+        // Instanciando un objeto Visitante 1 de la clase hija Visitante
+        
+        Visitante visitante1 = new Visitante();
     }
     
 }
