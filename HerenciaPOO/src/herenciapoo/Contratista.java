@@ -35,4 +35,11 @@ public class Contratista extends Persona {
         this.tiempoEstadia = tiempoEstadia;
     }
     
+    // Método para imprimir los datos específicos de un objeto de la clase Contratista
+    
+    public static void imprimirDatosContratista(Contratista contratista) {
+        String empresaContratista = contratista.getEmpresa();
+        System.out.println("Empresa: " + empresaContratista);
+    }
+    
 }
