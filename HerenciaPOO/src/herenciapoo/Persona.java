@@ -11,4 +11,13 @@ package herenciapoo;
  */
 public class Persona {
     
+    // Definiendo los atributos de la clase Persona
+    
+    public String nombres;
+    public String apellidos;
+    public int edad;
+    private int id;
+    private float horaEntrada;
+    private float horaSalida;
+    
 }
