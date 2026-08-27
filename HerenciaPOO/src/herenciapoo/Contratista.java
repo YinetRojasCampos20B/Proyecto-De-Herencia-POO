@@ -15,4 +15,24 @@ public class Contratista extends Persona {
     public String empresa;
     private double tiempoEstadia;
     
+    // Métodos getter y setter de la clase Contratista
+    
+    public String getEmpresa() {
+        return empresa;
+    }
+
+    public void setEmpresa(String nombreEmpresa) {
+        this.empresa = nombreEmpresa;
+    }
+
+    // Tiempo estadía
+    
+    public double getTiempoEstadia() {
+        return tiempoEstadia;
+    }
+
+    public void setTiempoEstadia(int tiempoEstadia) {
+        this.tiempoEstadia = tiempoEstadia;
+    }
+    
 }
