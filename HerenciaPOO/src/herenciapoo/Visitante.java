@@ -37,5 +37,22 @@ public class Visitante extends Persona {
         this.acompaniaA = quienAcompania;
     }
     
+    // Método para imprimir los datos del Visitante
+    
+    public static void imprimirDatosVisitante(Visitante visitante) {
+
+        float horaEntradaVisitante = visitante.getHoraEntrada();
+        float horaSalidaVisitante = visitante.getHoraSalida();
+        double tiempoEstadiaVisitante = visitante.getTiempoEstadia();
+        String acompanianteParaVisitante = visitante.getAcompaniaA();
+
+        System.out.println("Hora de entrada: " + horaEntradaVisitante);
+        System.out.println("Hora de salida: " + horaSalidaVisitante);
+        System.out.println("Tiempo de estadía: " + tiempoEstadiaVisitante);
+        System.out.println("Acompaña a: " + acompanianteParaVisitante);
+        System.out.println("Eres: Visitante");
+
+    }
+    
     
 }
