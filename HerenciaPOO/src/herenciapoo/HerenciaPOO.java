@@ -14,7 +14,10 @@ public class HerenciaPOO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // Instanciando un objeto Residente 1 de clase hija Residente
+
+        Residente residente1 = new Residente();
     }
     
 }
