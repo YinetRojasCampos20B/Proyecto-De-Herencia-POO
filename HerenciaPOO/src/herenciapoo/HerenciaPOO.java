@@ -44,6 +44,19 @@ public class HerenciaPOO {
         // Instanciando un objeto Visitante 1 de la clase hija Visitante
         
         Visitante visitante1 = new Visitante();
+        
+         // Asignación de atributos al objeto Visitante 1
+        
+        visitante1.setNombres("Mario Aníbal");
+        visitante1.setApellidos("Conrado");
+        visitante1.setEdad(29);
+        visitante1.setId(2);
+        visitante1.setHoraEntrada(4.08f);
+        visitante1.setHoraSalida(8.05f);
+        visitante1.setTiempoEstadia(2);
+        visitante1.setAcompaniaA(residente1.getNombres() + residente1.getApellidos());
+        
+        
     }
     
 }
