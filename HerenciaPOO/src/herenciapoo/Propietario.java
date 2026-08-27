@@ -10,6 +10,9 @@ package herenciapoo;
  */
 public class Propietario extends Persona {
     
+    // Asignando atributos a la clase Propietario
     
+    private String torre;
+    private String apartamento;
     
 }
