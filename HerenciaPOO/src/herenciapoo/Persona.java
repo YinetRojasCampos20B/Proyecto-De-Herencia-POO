@@ -81,4 +81,24 @@ public class Persona {
         this.horaSalida = horaSalida;
     }
     
+    // Método para imprimir los datos de los usuarios en pantalla
+   
+    public static void imprimirDatos(Persona persona) {
+
+        // Obtener mediante el uso de getters y setters los datos del usuario
+        int idUsuario = persona.getId();
+        String nombreUsuario = persona.getNombres();
+        String apellidosUsuario = persona.getApellidos();
+        int edadUsuario = persona.getEdad();
+        float horaEntradaUsuario = persona.getHoraEntrada();
+        float horaSalidaUsuario = persona.getHoraSalida();
+
+        // Imprimir datos del usuario en la consola
+        System.out.println("¡Hola, " + nombreUsuario + " " + apellidosUsuario);
+        System.out.println("Tu ID de usuario es: " + idUsuario);
+        System.out.println("Tu edad es de: " + edadUsuario + " años");
+        System.out.println("Hora de entrada: " + horaEntradaUsuario);
+        System.out.println("Hora de salida: " + horaSalidaUsuario);
+    }
+    
 }
