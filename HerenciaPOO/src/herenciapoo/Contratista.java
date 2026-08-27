@@ -10,4 +10,9 @@ package herenciapoo;
  */
 public class Contratista extends Persona {
     
+    // Asignando atributos a la clase Contratista
+
+    public String empresa;
+    private double tiempoEstadia;
+    
 }
