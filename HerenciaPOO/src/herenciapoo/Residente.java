@@ -26,4 +26,14 @@ public class Residente extends Persona {
         this.anioMudanza = anioMudanza;
     }
     
+    // Otros métodos complementarios
+    
+    // Método para imprimir los datos del Residente
+    
+    public static void imprimirDatosResidente(Residente residente) {
+        int anioMudanza = residente.getAnioMudanza();
+        System.out.println("Año de mudanza: " + anioMudanza);
+        System.out.println("Eres: Residente");
+    }
+    
 }
