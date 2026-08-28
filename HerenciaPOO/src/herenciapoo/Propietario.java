@@ -39,7 +39,7 @@ public class Propietario extends Persona {
     
     // Método complementario para imprimir datos de Propietario
     
-    public void ImprimirDatosPropietario (Propietario propietario) {
+    public void imprimirDatosPropietario (Propietario propietario) {
     
         System.out.println("Torre: "+propietario.torre);
         System.out.println("Apartamento: "+propietario.apartamento);
