@@ -64,7 +64,25 @@ public class HerenciaPOO {
         
         visitante1.imprimirDatosVisitante(visitante1);
         
+        // Separador de la información en consola
         
+        System.out.println("---------------------------------------------------------");
+
+        // Instanciando un objeto Contratista 1 de la clase hija Contratista
+        
+        Contratista contratista1 = new Contratista();
+
+        // Asignación de atributos al objeto Contratista 1
+        
+        contratista1.setNombres("Yllana Marie");
+        contratista1.setApellidos("Campos");
+        contratista1.setEdad(34);
+        contratista1.setId(3);
+        contratista1.setHoraEntrada(16.28f);
+        contratista1.setHoraSalida(19.15f);
+        contratista1.setTiempoEstadia(2);
+        contratista1.setEmpresa("Mcqueensey Consulting S.A.");
+
     }
     
 }
