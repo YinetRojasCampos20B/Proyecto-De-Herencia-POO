@@ -83,6 +83,9 @@ public class HerenciaPOO {
         contratista1.setTiempoEstadia(2);
         contratista1.setEmpresa("Mcqueensey Consulting S.A.");
 
+        // Usar el método Imprimir Datos de la clase madre Persona para mostrar en consola su respectiva información
+        contratista1.imprimirDatos(contratista1);
+        
     }
     
 }
