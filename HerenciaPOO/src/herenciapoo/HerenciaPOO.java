@@ -99,10 +99,24 @@ public class HerenciaPOO {
         
         Propietario propietario1 = new Propietario();
         
-
-
+        // Asignación de atributos al objeto Propietario 1 de la clase Propietario
         
-
+        propietario1.setNombres("Mario");
+        propietario1.setApellidos("Goncalves");
+        propietario1.setEdad(22);
+        propietario1.setId(4);
+        propietario1.setHoraEntrada(22.11f);
+        propietario1.setHoraSalida(0.0f);
+        propietario1.setTorre("T29");
+        propietario1.setApartamento("A205");
+        
+        // Usar el método Imprimir Datos de la clase madre Persona para mostrar en consola su información relacionada
+        
+        propietario1.imprimirDatos(propietario1);
+        
+        // Usar el método Imprimir Datos Propietario de la clase hija Propietario para mostrar en consola su respectiva información
+        
+        propietario1.imprimirDatosPropietario(propietario1);
     
     }
     
