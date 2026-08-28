@@ -56,6 +56,10 @@ public class HerenciaPOO {
         visitante1.setTiempoEstadia(2);
         visitante1.setAcompaniaA(residente1.getNombres() + residente1.getApellidos());
         
+        // Usar el método Imprimir Datos de la clase madre Persona para mostrar en consola su respectiva información
+        
+        visitante1.imprimirDatos(visitante1);
+        
         
     }
     
