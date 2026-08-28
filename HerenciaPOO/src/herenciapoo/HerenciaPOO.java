@@ -60,6 +60,10 @@ public class HerenciaPOO {
         
         visitante1.imprimirDatos(visitante1);
         
+        // Usar el método Imprimir Datos Visitante de la clase hija Visitante para mostrar en consola su respectiva información
+        
+        visitante1.imprimirDatosVisitante(visitante1);
+        
         
     }
     
