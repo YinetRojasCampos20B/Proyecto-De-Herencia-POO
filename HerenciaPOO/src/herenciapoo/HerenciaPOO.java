@@ -91,6 +91,19 @@ public class HerenciaPOO {
         
         contratista1.imprimirDatosContratista(contratista1);
         
+        // Separador de la información en consola System
+        
+        System.out.println("---------------------------------------------------------");
+    
+        // Instanciando un objeto Propietario 1 de la clase hija Propietario
+        
+        Propietario propietario1 = new Propietario();
+        
+
+
+        
+
+    
     }
     
 }
