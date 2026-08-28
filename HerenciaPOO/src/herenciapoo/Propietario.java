@@ -37,4 +37,13 @@ public class Propietario extends Persona {
         this.apartamento = apartamento;
     }
     
+    // Método complementario para imprimir datos de Propietario
+    
+    public void ImprimirDatosPropietario (Propietario propietario) {
+    
+        System.out.println("Torre: "+propietario.torre);
+        System.out.println("Apartamento: "+propietario.apartamento);
+    }
+            
+    
 }
