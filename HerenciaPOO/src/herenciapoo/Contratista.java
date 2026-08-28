@@ -40,6 +40,7 @@ public class Contratista extends Persona {
     public static void imprimirDatosContratista(Contratista contratista) {
         String empresaContratista = contratista.getEmpresa();
         System.out.println("Empresa: " + empresaContratista);
+        System.out.println("Eres: Contratista");
     }
     
 }

@@ -22,7 +22,7 @@ public class Residente extends Persona {
         return anioMudanza;
     }
 
-    public void setAñoMudanza(int anioMudanza) {
+    public void setAnioMudanza(int anioMudanza) {
         this.anioMudanza = anioMudanza;
     }
     

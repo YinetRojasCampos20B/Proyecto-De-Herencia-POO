@@ -43,6 +43,8 @@ public class Propietario extends Persona {
     
         System.out.println("Torre: "+propietario.torre);
         System.out.println("Apartamento: "+propietario.apartamento);
+        System.out.println("Eres: Propietario");
+        
     }
             
     
